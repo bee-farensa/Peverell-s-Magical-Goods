@@ -1,0 +1,222 @@
+body{
+    background-color: black;
+    color:white
+   
+}
+
+.eater-regular {
+    font-size: 250%;      
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.macondo-regular {
+font-size: 150%;
+font-family: "Macondo", cursive;
+font-weight: 400;
+font-style: normal;
+color: white;
+}
+.carousel-item img {
+    width: 600px; /* Mengatur lebar gambar menjadi 600 piksel */
+    max-width: 100%; /* Memastikan gambar tetap responsif */
+    height: auto; /* Memastikan tinggi gambar tetap proporsional */
+    margin: auto; /* Memusatkan gambar jika lebar kontainer lebih besar dari 600 piksel */
+}
+
+.font {
+font-size: 150%;
+line-height: 1cm;
+color: white;
+}
+.subjudul:hover {
+background-color: #0B192C; 
+cursor: pointer; 
+}
+a {
+color: white;       
+}
+a:visited {
+color: white; 
+}
+a:hover {
+color: wheat; 
+text-decoration: underline;
+}
+
+.form-container {
+    width: 60%; 
+    max-width: 500px; 
+    background-color: #1a1a1a; 
+    border: 1px solid #444; 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #666; 
+    border-radius: 5px;
+    background-color: #333; 
+    color: white; 
+    font-size: 16px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: wheat; /
+    
+}
+
+textarea {
+    resize: none; 
+    height: 100px; 
+}
+
+button {
+    background-color: #0B192C; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333;
+}
+
+.judul {
+    background-color: black;
+    color: white;
+    
+}
+
+.accordion-button {
+    background-color: black; /* Warna latar belakang tombol */
+    color: white; /* Warna tulisan */
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* Menghilangkan bayangan saat fokus */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black; /* Warna latar belakang tombol saat terbuka */
+    color: white; /* Warna tulisan saat terbuka */
+}
+
+.accordion-body {
+    background-color: black; /* Warna latar belakang konten */
+    color: white; /* Warna tulisan konten */
+}
+.card {
+    background-color: black; /* Warna latar belakang kartu */
+    color: white; /* Warna teks */
+}
+
+.card-header {
+    background-color: black; /* Warna latar belakang header kartu */
+    color: white; /* Warna teks header kartu */
+    border-bottom: 1px solid #333; /* Garis bawah header kartu */
+}
+
+.card-body {
+    background-color: black; /* Warna latar belakang body kartu */
+    color: white; /* Warna teks body kartu */
+}
+
+.blockquote-footer {
+    color: white; /* Warna teks footer blockquote */
+}
+
+.blockquote-footer cite {
+    color: #bbb; /* Warna teks cite dalam footer blockquote */
+}
+
+.card {
+    background-color: black; /* Warna latar belakang kartu */
+    color: white; /* Warna teks */
+}
+
+.card-img-top {
+    filter: brightness(0.5); /* Mengurangi kecerahan gambar agar lebih sesuai dengan latar belakang hitam */
+}
+
+.card-title {
+    color: white; /* Warna teks judul kartu */
+}
+
+.card-text {
+    color: white; /* Warna teks konten kartu */
+}
+form {
+    background-color: black; /* Warna latar belakang form */
+    color: white; /* Warna teks */
+    padding: 20px; /* Memberikan sedikit padding di dalam form */
+    border-radius: 10px; /* Memberikan sudut bulat pada form */
+}
+
+fieldset {
+    border: none; /* Menghilangkan border fieldset */
+}
+
+legend {
+    color: white; /* Warna teks legend */
+}
+
+.form-label {
+    color: white; /* Warna teks label */
+}
+
+.form-control, .form-select {
+    background-color: #333; /* Warna latar belakang input dan select */
+    color: white; /* Warna teks input dan select */
+    border: 1px solid #555; /* Warna border input dan select */
+}
+
+.form-control:disabled, .form-select:disabled {
+    background-color: #555; /* Warna latar belakang input dan select yang dinonaktifkan */
+}
+
+.form-check-input:disabled {
+    background-color: #555; /* Warna latar belakang checkbox yang dinonaktifkan */
+}
+
+.form-check-label {
+    color: white; /* Warna teks label checkbox */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    border-color: #007bff; /* Warna border tombol */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+    border-color: #0056b3; /* Warna border tombol saat dihover */
+}
+.card-header2 {
+    position: relative;
+}
+
+.back-to-top {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
